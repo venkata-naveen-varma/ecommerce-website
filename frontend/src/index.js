@@ -6,6 +6,7 @@ import {
   Route,
   RouterProvider
 } from 'react-router-dom';
+import {PayPalScriptProvider} from '@paypal/react-paypal-js';
 // default bootstrap
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // custom bootstrap theme
@@ -49,7 +50,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <RouterProvider router={router}/>
+      <PayPalScriptProvider>
+        <RouterProvider router={router}/>
+      </PayPalScriptProvider>
     </Provider>
   </React.StrictMode>
 );
