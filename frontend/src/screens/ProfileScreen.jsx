@@ -3,13 +3,13 @@ import { Table, Form, Button, Row, Col } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
 import { FaTimes } from 'react-icons/fa';
-
 import { toast } from 'react-toastify';
 import Message from '../components/Message';
 import Loader from '../components/Loader';
 import { useProfileMutation } from '../slices/usersApiSlice';
 import { useGetMyOrdersQuery } from '../slices/ordersApiSlice';
 import { setCredentials } from '../slices/authSlice';
+import Meta from '../components/Meta';
 
 const ProfileScreen = () => {
   const [name, setName] = useState('');
@@ -53,6 +53,8 @@ const ProfileScreen = () => {
   };
 
   return (
+    <>
+    <Meta title="Profile"/>
     <Row>
       <Col md={3}>
         <h2>User Profile</h2>
@@ -158,6 +160,7 @@ const ProfileScreen = () => {
         )}
       </Col>
     </Row>
+    </>
   );
 };
 
