@@ -1,6 +1,15 @@
 # ecommerce-website
 A Full Stack Ecommerce website called 'ShopPro', using MongoDB, Express, ReactJS, NodeJS (MERN)
 
+## Tech Stack
+- MongoDB (Database)
+- Express.js (Framework)
+- React.js (User Interface-UI)
+- Node.js (Server)
+- Redux (UI)
+- Paypal (Payment)
+- JWT json web token (Authentication)
+
 ## Features
 
 - Full featured shopping cart
