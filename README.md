@@ -77,3 +77,11 @@ admin@gmail.com (Admin)
 naveen@gmail.com (Customer)
 123456
 ```
+
+## Build & Deploy
+
+```
+# Create frontend prod build
+cd frontend
+npm run build
+```
