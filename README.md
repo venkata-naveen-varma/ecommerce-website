@@ -1,8 +1,9 @@
 # ShopPro Ecommerce-website
 A Full Stack Ecommerce website called 'ShopPro', using MongoDB, Express, ReactJS, NodeJS (MERN)
 
-## Checout the website
-ShopPro website url --> https://shoppro-qtmo.onrender.com
+## Checkout the hosted website
+Hosting PLatform: render.com
+Hosted website: (ShopPro website)[https://shoppro-qtmo.onrender.com]
 
 ## Tech Stack
 - MongoDB (Database)
