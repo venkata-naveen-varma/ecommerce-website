@@ -1,4 +1,4 @@
-# ecommerce-website
+# ShopPro Ecommerce-website
 A Full Stack Ecommerce website called 'ShopPro', using MongoDB, Express, ReactJS, NodeJS (MERN)
 
 ## Checout the website
